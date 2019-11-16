@@ -1,13 +1,8 @@
 /*
- * Student ID: 201275923
+ * Student ID: {{removed}}
  * Student Name: Steffan Drosinos Jones
- * Email: s.d.jones@student.liverpool.ac.uk
- *
- * User: sgsjone9
- *
+ * Email: {{removed}}
  * Problem ID: 1025
- * RunID: 29147
- * Result: Accepted
  */
 #include <stdio.h>
 
