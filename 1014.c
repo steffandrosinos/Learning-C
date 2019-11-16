@@ -28,8 +28,8 @@ int main(void)
     if(r1 <= r2)  /* Check if r1 is more than r2 which is not allowed */
     {
         calculateLoop(r1, r2);
+        printResults(); /* print results */
     }
-    printResults(); /* print results */
     return 0;
 }
 
