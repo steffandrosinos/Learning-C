@@ -20,13 +20,10 @@ int main(void)
     a = getInput(); /* Get input for a */
     b = getInput(); /* Get input for b */
     n = getInput(); /* Get input for n */
-    if(n<=60000) /* n can't be more than 60,000 */
-    {
-        double divAB = (double)a/b; /* Divide A and B */
-        double shortenAB = shortenDouble(divAB, n); /* Shift by n-1 */
-        int nthvalue = shortenAB*10; /* Get nth value */
-        printf("%d", nthvalue); /* Print results */
-    }
+    double divAB = (double)a/b; /* Divide A and B */
+    double shortenAB = shortenDouble(divAB, n); /* Shift by n-1 */
+    int nthvalue = shortenAB*10; /* Get nth value */
+    printf("%d", nthvalue); /* Print results */
     return 0;
 }
 
